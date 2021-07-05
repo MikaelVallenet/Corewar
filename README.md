@@ -19,6 +19,8 @@ We also developed 3 bonuses, a VS Code extension for the RedCode available on th
 Automatic graphical tests for ASM that create logs on every possible error.\
 And finally a graphical arena using Ncurses to see the blood flow, I mean the bits flow.
 
+(the description of the project is in French I took it from a deposit of another year, sorry for that.)
+
 ### VM : Machine Virtuelle
 - L'arene est constitue de 4096 octets;
 - L'arene est circulaire;
