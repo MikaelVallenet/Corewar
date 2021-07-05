@@ -1,0 +1,81 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "redcode",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#macro"
+		},
+		{
+			"include": "#comment"
+		},
+		{
+			"include": "#function"
+		},
+		{
+			"include": "#number"
+		},
+		{
+			"include": "#operator"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "entity.name.tag",
+				"match": "\\.[a-zA-Z0-9]+"
+			},
+			{
+				"name": "keyword.control.redcode",
+				"match": "(%:[a-zA-Z0-9]+)|(IDX_MOD|PC|AND|OR|XOR|\\|)"
+			}]
+		},
+		"function": {
+			"patterns": [{
+				"name": "entity.name.function",
+				"match": "((^.*:)? *(\\W|^))(live|ld|sti|add|sub|and|or|xor|zjmp|ldi|st|fork|lld|lldi|lfork|aff)( |\t)"
+			}]
+		},
+		"operator": {
+			"patterns": [{
+				"name": "constant.numeric",
+				"match": "\\W,"
+			}]
+		},
+		"number": {
+			"patterns": [{
+				"name": "constant.numeric.integer",
+				"match": "((r|%)?[0-9]+(,| |\n|\t)?+)|(index|arg)"
+			}]
+		},
+		"macro": {
+			"patterns": [{
+				"name": "entity.name.type",
+				"match": "^ *[a-zA-Z0-9]+:"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.redcode",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.redcode",
+					"match": "\\\\."
+				}
+			]
+		},
+		"comment": {
+			"patterns": [{
+				"name": "comment.line",
+				"match": "#.*"
+			}]
+		}
+	},
+	"scopeName": "source.s"
+}

@@ -1,0 +1,56 @@
+COMPILATION TEST
+
+	abel.s-> : Passed !
+	tyron.s-> : Passed !
+	maxidef.s-> : Passed !
+	corup.s-> : Passed !
+	fluttershy.s-> : Passed !
+	ppichier.s-> : Passed !
+	aurollan.s-> : Passed !
+	ex.s-> : Passed !
+	Car.s-> : Passed !
+	mortel.s-> : Passed !
+	bigzork.s-> : Passed !
+	Gagnant.s-> : Passed !
+	jumper.s-> : Passed !
+	Octobre_Rouge_V4.2.s-> : Passed !
+	slider2.s-> : Passed !
+	pdd.s-> : Passed !
+	cepalle2.s-> : Passed !
+	cepalle.s-> : Passed !
+	kroz.s-> : Passed !
+	toto.s-> : Passed !
+	bill.s-> : Passed !
+	corruption.s-> : Passed !
+	sujet.s-> : Passed !
+
+
+DIFF FILE
+
+	abel.-> : Passed !
+	tyron.-> : Passed !
+	maxidef.-> : Passed !
+	corup.-> : Passed !
+	fluttershy.-> : Passed !
+	ppichier.-> : Passed !
+	aurollan.-> : Passed !
+	ex.-> : Passed !
+	Car.-> : Passed !
+	mortel.-> : Passed !
+	bigzork.-> : Passed !
+	Gagnant.-> : Passed !
+	jumper.-> : Passed !
+	Octobre_Rouge_V4.2.-> : Passed !
+	slider2.-> : Passed !
+	pdd.-> : Passed !
+	cepalle2.-> : Passed !
+	cepalle.-> : Passed !
+	kroz.-> : Passed !
+	toto.-> : Passed !
+	bill.-> : Passed !
+	corruption.-> : Passed !
+	sujet.-> : Passed !
+
+
+Test Compilation: 23 / 23
+Aucune difference entre la compilation de reference et la notre.

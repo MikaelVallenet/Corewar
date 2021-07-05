@@ -1,0 +1,42 @@
+ERRROR TEST
+
+	parser_unexpected_token2.s-> : Passed !
+	parser_two_comment.s-> : Passed !
+	parser_name_empty.s-> : Passed !
+	parser_no_label_dec.s-> : Passed !
+	parser.s-> : Passed !
+	parser_more_3_param.s-> : Passed !
+	lexer_direct_number2.s-> : Passed !
+	lexer_indirect_number3.s-> : Passed !
+	dir.s-> : Passed !
+	parser_too_many_label_dec.s-> : Passed !
+	lexer_indirect_number2.s-> : Passed !
+	parser_need_param.s-> : Passed !
+	lexer_indirect_number1.s-> : Passed !
+	lexer_direct_number1.s-> : Passed !
+	parser_bad_number_param.s-> : Passed !
+	parser_unclose_string2.s-> : Passed !
+	lexer_direct.s-> : Passed !
+	parser_same_label_dec2.s-> : Passed !
+	parser_two_name.s-> : Passed !
+	parser_no_eof_into_cmd.s-> : Passed !
+	parser_bad_param.s-> : Passed !
+	lexer_dot.s-> : Passed !
+	parser_no_name.s-> : Passed !
+	parser_unexpected_token.s-> : Passed !
+	lexer_indirect_number4.s-> : Passed !
+	parser_same_label_dec.s-> : Passed !
+	aurollan.s-> : Passed !
+	parser_unclose_string.s-> : Passed !
+	parser_unexpected_token3.s-> : Passed !
+	lexer_direct_number3.s-> : Passed !
+	parser_no_comment.s-> : Passed !
+	lexer_unexpected_char.s-> : Passed !
+	parser_unknow_cmd.s-> : Passed !
+	parser_no_param.s-> : Passed !
+	empty.s-> : Passed !
+	lexer_label1.s-> : Passed !
+
+
+Test handle error : 36 / 36
+Toutes les erreurs ont été detecté.

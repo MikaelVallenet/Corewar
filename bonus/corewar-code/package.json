@@ -1,0 +1,68 @@
+{
+	"name": "corewar-code",
+	"displayName": "Corewar code",
+	"description": "All you need for the Corewar project.",
+	"version": "0.1.0",
+	"publisher": "davphla",
+	"engines": {
+		"vscode": "^1.56.0"
+	},
+	"categories": [
+		"Language Packs"
+	],
+	"keywords": [
+		"Corewar",
+		"Champions"
+	],
+	"activationEvents": [
+		"onLanguage:redcode"
+	],
+	"main": "./src/extension.js",
+	"capabilities": {
+		"hoverProvider": "true"
+	},
+	"contributes": {
+		"commands": [
+			{
+				"command": "corewar-code.showTime",
+				"title": "Hello Time"
+			}
+		],
+		"languages": [
+			{
+				"id": "redcode",
+				"extensions": [
+					".s"
+				],
+				"aliases": [
+					"Redcode"
+				],
+				"filenames": [],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "redcode",
+				"scopeName": "source.s",
+				"path": "./syntaxes/redcode.tmLanguage.json"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.56.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.4",
+		"@types/node": "^12.11.7",
+		"eslint": "^7.19.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.2.1",
+		"typescript": "^4.1.3",
+		"vscode-test": "^1.5.0"
+	}
+}
