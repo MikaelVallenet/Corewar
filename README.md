@@ -30,7 +30,6 @@ And finally a graphical arena using Ncurses to see the blood flow, I mean the bi
 - Le bytecode est un ensemble d'instruction, suivis de ses parametres, qui defini donc les champions.
 
 ### Processus :
--
 Un processus dipose de :<br/>
 - Un Live : Une valeur qui designe si le processus est vivant.
 - Un PC : Registre special qui contient l'adresse dans la memoire de la VM.<br/>
