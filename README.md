@@ -85,7 +85,7 @@ Un processus dipose de :<br/>
 
 ### ASM
 
-|                          Dependency                        |      License       |
+|                          Label                        |      Mark       |
 |:----------------------------------------------------------:|:------------------:|
 |           Header | 2 / 2 |
 | Full header    | 5 / 5        |
@@ -95,7 +95,7 @@ Un processus dipose de :<br/>
 
 ### Total
 
-|                          Dependency                        |      License       |
+|                          Label                        |      Mark       |
 |:----------------------------------------------------------:|:------------------:|
 |           Preliminaries | 2 / 2 |
 |           ASM | 10 / 10 |
